@@ -10,10 +10,16 @@
   </head>
   <body>
     <div id="app">
-      <h1>Product goes here</h1>
+      <h1>{{ Product }}</h1>
+      <p>{{ Description }}</p>
     </div>
 
     <!-- Import Js -->
     <script src="./main.js"></script>
+  
+    <!-- Mounting Vue App to app div-->
+    <script>
+      const mountApp=app.mount("#app")
+    </script>
   </body>
 </html>
